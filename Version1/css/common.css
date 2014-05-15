@@ -1,0 +1,122 @@
+.addbut {
+	background-image : url('../images/add_icon.jpg');
+	background-repeat : no-repeat;
+	background-size: 20px 20px;
+	display:inline-block;
+	cursor:hand;
+	width:20px;
+	height:20px;
+}
+.mailbut {
+	background-image : url('../images/send_mail.jpg');
+	background-repeat : no-repeat;
+	background-size: 20px 20px;
+	display:inline-block;
+	cursor:hand;
+	width:20px;
+	height:20px;
+}
+.nounderline {
+	text-decoration:none;
+}
+a:visited {
+	color:orange;
+}
+a:hover {
+	font-weight:bold;
+	font-size:18px;
+	color:green;
+}
+a:active {
+	color:"blue";
+}
+#errorid {
+	display:none;
+	background-color:#C1C1C1;
+	color:#FF0000;
+	font-size:11px;
+	font-family:Arial;
+	width:40%;
+	height:25px;
+	border-radius:10px;
+	text-align:center;
+}
+.erroridh3 {
+	padding-top:5px;
+}
+.pl475 {
+	padding-left:475px;
+}
+#containerpl {
+	margin-left:20%;
+	width:878px;
+	height:500px;
+	overflow:auto;
+	position:absolute;
+	left:37%;
+	top:30%;
+	margin-left:-200px;
+	margin-top:-100px;
+}	
+.clrboth {
+	clear:both;
+}
+.fleft {
+	float:left;
+}
+.fright {
+	float:right;
+}
+.mstab {
+	border: 1px solid orange;
+	/* margin: 0 auto; This can be used to center a table or align='center' */
+}
+.errpos {
+	/* text-align:center; */
+	color:red;
+	font-size:20px;
+	position:absolute;
+	top:27%;
+	left:35%;
+	z-index:2;
+	/* background-color:blue; */
+}
+.sucpos {
+	/* text-align:center; */
+	color:green;
+	font-size:20px;
+	position:absolute;
+	top:27%;
+	left:35%;
+	z-index:2;
+	/* background-color:blue; */
+}
+.loadpos {
+	/* text-align:center; */
+	display:none;
+	color:red;
+	font-size:20px;
+	position:absolute;
+	top:40%;
+	left:50%;
+	z-index:3;
+	/* background-color:gray; */
+}
+.cenpos{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-200px;
+	margin-top:-100px;
+	z-index:1;
+}
+.bgcolor {
+	display:none;
+	position:absolute;
+	left:0;
+	top:0;
+	/* background-color:#DBEAF9; */
+	width:100%;
+	height:100%;
+	z-index:1;
+}
